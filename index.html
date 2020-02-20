@@ -14,7 +14,8 @@
         <button v-on:dblclick.once="add(10)">Add 10 year</button>
         <button v-on:dblclick="subtract(10)">Subtract 10 year</button>
         <p>My age in {{ age }}</p>  
-        <div id="canvas" v-on:mousemove="updateXY">{{ x }}, {{ y  }}</div>      
+        <div id="canvas" v-on:mousemove="updateXY">{{ x }}, {{ y  }}</div> 
+        <a v-on:click.prevent="click" href="https://vuejs.org/">Vue.js</a>     
     </div>
     <script src="app.js"></script>
 </body>
