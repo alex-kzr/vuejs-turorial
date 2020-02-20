@@ -3,7 +3,8 @@ new Vue({
     data: {
         name: 'Alex',
         job: 'Web developer',
-        website: 'http://vuejs.org'
+        website: 'http://vuejs.org',
+        websiteTag: '<a href="http://vuejs.org">Vue.js site again</a>'
     },
     methods: {
         greet: function(dayTime){
