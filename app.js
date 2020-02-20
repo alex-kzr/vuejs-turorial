@@ -1,14 +1,9 @@
 new Vue({
     el: '#vue-app',
     data: {
-        name: 'Alex',
-        job: 'Web developer',
-        website: 'http://vuejs.org',
-        websiteTag: '<a href="http://vuejs.org">Vue.js site again</a>'
+        age: 37        
     },
-    methods: {
-        greet: function(dayTime){
-            return 'Good ' + dayTime + ' ' + this.name + '!';
-        }
+    methods: {     
+
     }
 });
