@@ -5,8 +5,8 @@ new Vue({
         job: 'Web developer'
     },
     methods: {
-        greet: function(){
-            return 'Good Morning!'
+        greet: function(dayTime){
+            return 'Good ' + dayTime + '!';
         }
     }
 });
