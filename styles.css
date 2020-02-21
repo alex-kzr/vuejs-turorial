@@ -3,6 +3,12 @@
     height: 500px;
     margin: 0 auto;
     background: url(/img/bag.png) center no-repeat;
+    background-size: 80%;
+}
+
+#bag.burst {
+    background: url(/img/bag-burst.png) center no-repeat;
+    background-size: 80%;
 }
 
 #bag-health{
