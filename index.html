@@ -9,12 +9,9 @@
 </head>
 <body>
     <div id="vue-app">
-        <button v-on:click="a++">Add to A</button>
-        <button v-on:click="b++">Add to B</button>
-        <p>A - {{ a }}</p>
-        <p>B - {{ b }}</p>
-        <p>Age + A = {{ addToA }}</p>
-        <p>Age + B = {{ addToB }}</p>
+        <div v-on:click="available = !available" v-bind:class="{available: available}">
+            <span>Span</span>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
