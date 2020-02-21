@@ -15,6 +15,10 @@
         <ul>
             <li v-for="(ninja, index) in ninjas">{{ index }} . {{ ninja.name }} - {{ ninja.age }}</li>
         </ul>
+        <template v-for="(ninja, index) in ninjas">
+            <h3>{{ index }} . {{ ninja.name }}</h3>
+            <p>{{ ninja.age }}</p>
+        </template>
     </div>
     <script src="app.js"></script>
 </body>
