@@ -6,6 +6,9 @@ new Vue({
         age: 20
     },
     methods: { 
+                
+    },
+    computed: {
         addToA: function(){
             console.log('addToA');
             return this.age + this.a;
