@@ -1,5 +1,10 @@
 Vue.component('greeting',{
-    template: '<p>Hey there, I am a re-usable component</p>'
+    template: '<p>Hey there, I am {{ name }}</p>',
+    data: function(){
+        return {
+            name: 'Yoshi'
+        }
+    }
 });
 
 var one = new Vue({
