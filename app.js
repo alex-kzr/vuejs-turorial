@@ -1,9 +1,11 @@
+var data = {
+    name: 'Yoshi'
+}
+
 Vue.component('greeting',{
     template: '<p>Hey there, I am {{ name }}. <button v-on:click="changeName">Change name</button></p>',
     data: function(){
-        return {
-            name: 'Yoshi'
-        }
+        return data;
     },
     methods: {
         changeName: function(){
