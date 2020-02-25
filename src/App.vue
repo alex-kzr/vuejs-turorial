@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>{{ title }}</h1>
+    <ninjas></ninjas>
   </div>
 </template>
 
