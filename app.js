@@ -19,7 +19,9 @@ var two = new Vue({
         title: 'Vue App Two'
     },
     methods: { 
-        
+        changeTitle: function(){
+            one.title = 'Title changed'
+        }
     },
     computed: {
         greet: function(){
