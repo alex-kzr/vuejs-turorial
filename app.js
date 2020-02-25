@@ -7,7 +7,9 @@ var one = new Vue({
         
     },
     computed: {
-        
+        greet: function(){
+            return 'Hello from app one!'
+        }
     }
 });
 
@@ -20,6 +22,8 @@ var two = new Vue({
         
     },
     computed: {
-        
+        greet: function(){
+            return 'Hello from app two!'
+        }
     }
 });
