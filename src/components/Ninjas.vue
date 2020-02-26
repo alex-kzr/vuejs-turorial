@@ -11,7 +11,11 @@
 
 <script>
 export default {
-  props: ['ninjas'],
+  props: {
+    ninjas: {
+      type: Array
+    }
+  },
   data() {
     return {
       
