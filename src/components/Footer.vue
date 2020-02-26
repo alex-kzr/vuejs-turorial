@@ -12,9 +12,9 @@ export default {
     }
   }
 }
-</script scoped>
+</script>
 
-<style>
+<style scoped>
 footer {
     background: #222;
     padding: 6px;

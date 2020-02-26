@@ -12,9 +12,9 @@ export default {
     }
   }
 }
-</script scoped>
+</script>
 
-<style>
+<style scoped>
 header {
     background: lightgreen;
     padding: 10px;
