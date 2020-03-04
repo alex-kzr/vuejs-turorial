@@ -20,6 +20,7 @@
           <select v-model="blog.author">
               <option v-for="author in authors">{{ author }}</option>
           </select>
+          <button v-on:click.prevent="post">Add Blog</button>
       </form>
       <div id="preview">
           <h3>Preview Blog</h3>
@@ -49,7 +50,15 @@ export default {
     }
   },
   methods: {
-    
+    post: function(){
+        this.$http.post('http://jsonplaceholder.typicode.com/posts',{
+            title: this.blog.title,
+            body: this.blog.content,
+            userId: 999
+        }).then(function(data){
+            console.log(data);
+        });
+    }
   }
 }
 </script>
