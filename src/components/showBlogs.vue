@@ -37,6 +37,13 @@ export default {
         'snippet': function(value){
             return value.slice(0,100) + '...';
         }
+    },
+    directives: {
+        'rainbow': {
+            bind(el, binding, vnode){
+                el.style.color = "#" + Math.random().toString().slice(2,8);
+            }
+        }
     }
 }
 </script>
