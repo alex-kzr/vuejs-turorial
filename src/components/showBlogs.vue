@@ -58,4 +58,9 @@ export default {
     box-sizing: border-box;
     background: #eee;
 }
+input[type="text"]{
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
 </style>
